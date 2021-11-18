@@ -8,7 +8,6 @@ from matplotlib import pyplot as plt
 import scipy.ndimage
 import cv2
 
-
 # Carpetas/listas
 listaEnfermos = os.listdir("enfermo_csv")
 listaEnfermosCOMP = os.listdir("enfermoComprimido_csv")
