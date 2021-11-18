@@ -189,7 +189,7 @@ for NombreArchivo in listaEnfermosCOMP:
     coded_image = objeto.codificar()
 
     #cv2.imshow("Imagen original", image) Se muestra la imagen
-    cv2.waitKey()
+    #cv2.waitKey()
 
     shape = image.shape
 
@@ -197,7 +197,7 @@ for NombreArchivo in listaEnfermosCOMP:
     ret = np.array(ret, np.uint8)
     ret_image = np.reshape(ret, shape)
     #cv2.imshow("Tras compresion", ret_image) Se muestra la imagen
-    cv2.waitKey()
-    cv2.destroyAllWindows()
+    #cv2.waitKey()
+    #cv2.destroyAllWindows()
     cv2.imwrite("enfermoComprimido2Algoritmos_csv/" + NombreArchivo, image) #Se guardan las imagenes tras la compresion
 
