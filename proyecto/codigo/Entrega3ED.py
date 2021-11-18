@@ -1,5 +1,3 @@
-#Aplicacion de huffman adaptada de https://github.com/DexteR891161/Image_Compression-Huffman_Coding-/blob/master/app.py
-
 import os
 from PIL import Image
 import numpy as np
